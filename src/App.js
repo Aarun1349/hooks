@@ -11,7 +11,10 @@ import UseState from "./components/UseState";
 import UseRef from "./components/UseRef";
 import UseStateObject from "./components/UseStateObject";
 import UseEffectCleanUp from "./components/UseEffectCleanUp";
+import FetchApi from "./components/FetchApi";
 import UseRef1 from "./components/UseRef1";
+import TaskManager from "./components/TaskManager";
+
 // import Test from "./components/Test";
 function App() {
  
@@ -36,6 +39,8 @@ function App() {
         <Route exact path="/usememo" element={<UseMemo />}></Route>
         <Route exact path="/usecontext" element={<UseContext />}></Route>
         <Route exact path="/usecallback" element={<UseCallback />}></Route>
+        <Route exact path="/fetchapi" element={<FetchApi />}></Route>
+        <Route exact path="/taskmanager" element={<TaskManager />}></Route>
       </Routes>
     </>
   );

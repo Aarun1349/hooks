@@ -13,6 +13,8 @@ function Navigation() {
     "useContext",
     "useMemo",
     "useCallback",
+    "FetchApi",
+    "TaskManager"
     // "Test"
   ];
   return (
